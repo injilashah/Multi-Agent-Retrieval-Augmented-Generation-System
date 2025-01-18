@@ -33,6 +33,7 @@ The System is designed to query and retrieve relevant information from a documen
 ### Running the System
 
 To run the system, execute the following command:
+we run
 
 ```bash
 python -m pip install -r requirements.txt
