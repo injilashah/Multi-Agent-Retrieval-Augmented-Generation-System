@@ -1,6 +1,6 @@
 # Multi-Agent-Retrieval-Augmented-Generation-System
 
-The System is designed to query and retrieve relevant information from a document set of 20-30 files using multiple specialized Agents.
+The System is designed to query and retrieve relevant information from a document set using multiple specialized Agents.
 
 Agent 1: Query Parser  
 - Analyzes user queries to extract key terms or topics.  
