@@ -1,5 +1,5 @@
 import streamlit as st
-from ner import query_parser
+from keyword import query_parser
 from retreive import retrieve_documents
 from rank import rank_documents
 from generate import generate_response
