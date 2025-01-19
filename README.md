@@ -1,7 +1,8 @@
 # Multi-Agent-Retrieval-Augmented-Generation-System
 
 The System is designed to query and retrieve relevant information from a document set using multiple specialized Agents.
-### Note: Due to resource constraints the "facebook/bart-large-cnn" was used for final output generation which affects the generation quality.However the model can be replaced (in generation.py) to any other hugging face model like"google/bigbird-pegasus-large-arxiv".For most appropriate results the Gpt-4 model can be used  through Openai API.
+### Note: Due to resource constraints the "facebook/bart-large-cnn" was used for final output generation which affects the generation quality.
+### Incase  GPU is available the model can be replaced (in generation.py) to any other hugging face model like"google/bigbird-pegasus-large-arxiv".For most appropriate results the Gpt-4 model can be used  through Openai API.
 
 # System Flow showing interaction between multiple agents.
 
