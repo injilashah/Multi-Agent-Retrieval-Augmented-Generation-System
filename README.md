@@ -24,6 +24,9 @@ The System is designed to query and retrieve relevant information from a documen
 
 - **app.py** 
   - The main file that serves as the entry point to run the system. It orchestrates the flow of the program by invoking the other modules in the correct sequence.
+- **process.py** 
+  -To preprocess .pdf files ,extract text , Preprocess  (tokenization and cleaning),Generate Embeddings using Sentence-Transformer, Store embeddings in document_index.faiss
+
 - **keyword.py** (Agent 1)  
   - Implements the logic for analyzing and extracting key terms or topics from the user's query, which are then used to guide the document retrieval process.
 - **retrieve.py**  (Agent 2)
@@ -33,8 +36,6 @@ The System is designed to query and retrieve relevant information from a documen
 - **generate.py**   (Agent 4)
   - Responsible for generating responses by synthesizing information from the top-ranked documents retrieved by the `retrieve.py` module. It composes concise answers based on relevant content.
 
-- **process.py**   (Agent 4)
-  -To preprocess .pdf files ,extract text , Preprocess  (tokenization and cleaning),Generate Embeddings using Sentence-Transformer, Store embeddings in document_index.faiss
 
 
 
