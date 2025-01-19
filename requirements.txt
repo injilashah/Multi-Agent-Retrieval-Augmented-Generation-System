@@ -1,0 +1,6 @@
+sentence_transformers
+faiss-cpu
+streamlit
+pdfplumber
+transformers
+spacy
