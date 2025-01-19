@@ -33,6 +33,9 @@ The System is designed to query and retrieve relevant information from a documen
 - **generate.py**   (Agent 4)
   - Responsible for generating responses by synthesizing information from the top-ranked documents retrieved by the `retrieve.py` module. It composes concise answers based on relevant content.
 
+- **process.py**   (Agent 4)
+  -To preprocess .pdf files ,extract text , Preprocess  (tokenization and cleaning),Generate Embeddings using Sentence-Transformer, Store embeddings in document_index.faiss
+
 
 
 ### Running the System
