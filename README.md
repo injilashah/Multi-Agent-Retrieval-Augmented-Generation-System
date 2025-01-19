@@ -1,6 +1,8 @@
 # Multi-Agent-Retrieval-Augmented-Generation-System
 
 The System is designed to query and retrieve relevant information from a document set using multiple specialized Agents.
+###Note: Due to resource constraints the "facebook/bart-large-cnn" was used for Final output Generation which affects the generation quality.
+
 # System Flow showing interaction between multiple agents.
 
 <img src="flow.png" alt="FLOW" style="width: 230px; height: 230px; border-radius: 50%;">
