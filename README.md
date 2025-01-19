@@ -9,8 +9,6 @@ The System is designed to query and retrieve relevant information from a documen
 
 ### System Overview
 
-The System is designed to query and retrieve relevant information from a document set of 20-30 files using multiple specialized Agents.
-
 - **Agent 1: Query Parser**  
   - Analyzes user queries to extract key terms or topics.  
 - **Agent 2: Document Retriever**  
