@@ -11,7 +11,7 @@ index = faiss.read_index("document_index.faiss")
 
 
 
-# Step 1: Extract text from PDFs
+
 file_path = 'I:/genaii/content/genai/documents'  # Path where your PDF documents are stored
 documents = []
 doc_paths = []

@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import re
 
-# Step 1: Extract text from PDFs
+
 file_path = 'I:/genaii/content/genai/documents'  # Path where your PDF documents are stored
 documents = []
 doc_paths = []
@@ -55,7 +55,7 @@ query = "Smart Wheelchair Design"
 query_embedding = model.encode([query])
 
 # Perform search
-k = 5  # Number of top documents to retrieve
+k = 3  # Number of top documents to retrieve
 distances, indices = index.search(query_embedding, k)
 
 # Output the results
