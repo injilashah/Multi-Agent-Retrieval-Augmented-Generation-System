@@ -2,7 +2,7 @@
 
 The System is designed to query and retrieve relevant information from a document set using multiple specialized Agents.
 
-![Project flow](https://drive.google.com/file/d/1nvO7aANFMuLsCsoRNjYgpHIb6jJEEYmj/view?usp=drive_link)
+![Project flow](flow.png)
 
 
 ### System Overview
