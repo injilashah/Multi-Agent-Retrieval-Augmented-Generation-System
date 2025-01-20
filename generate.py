@@ -5,7 +5,7 @@ tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 def generate_response(top_documents):
     """
-    Generates a response based on top-ranked documents.
+    Generates a response based on top-ranked documents
     :param top_documents: List of top-ranked document snippets
     :return: Generated summary text
     """
@@ -16,7 +16,7 @@ def generate_response(top_documents):
     # Combine document snippets into a single string
     combined_text = " ".join([doc[1] for doc in top_documents if isinstance(doc[1], str)])
     
-    # Ensure the combined text is not empty
+    # Ceck ifcombined text is not empty
     if not combined_text.strip():
         return "No valid content to summarize."
 
@@ -25,7 +25,7 @@ def generate_response(top_documents):
     input_text = tokenizer.decode(tokens["input_ids"][0], skip_special_tokens=True)
     
     try:
-        # Summarize the input text
+        # Summarize input text
         response = summarizer(input_text, max_length=500, min_length=100, do_sample=False)
         return response[0]['summary_text']
     except IndexError as e:
