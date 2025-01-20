@@ -5,9 +5,8 @@ from rank import rank_documents
 from generate import generate_response
 import pdfplumber
 
-# Initialize global variables
-documents = []  # List of document texts
 
+documents = [] 
 # Load PDF documents
 def load_documents(uploaded_files):
     global documents
@@ -22,7 +21,7 @@ def load_documents(uploaded_files):
                     documents.append(document_text)
                     st.success(f"Document '{uploaded_file.name}' added successfully!")
                 else:
-                    st.warning(f"Document '{uploaded_file.name}' contains no extractable text.")
+                    st.warning(f"Document '{uploaded_file.name}' has extractable text.")
             except Exception as e:
                 st.error(f"Error processing '{uploaded_file.name}': {e}")
 
@@ -36,8 +35,8 @@ with st.sidebar:
     if uploaded_files:
         load_documents(uploaded_files)
 
-# Main content
-st.title("Multi-Agent Retrieval-Augmented Generation System")
+
+st.title("Multi-Agent- Retrieval Augmented Generation System")
 
 # Query input
 query = st.text_input("Enter your query:")
