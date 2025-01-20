@@ -34,7 +34,6 @@ def preprocess_text(text):
     text = re.sub(r'[^a-zA-Z0-9\s]', '', text)  # Remove non-alphanumeric characters
     return text.strip()
 documents = [preprocess_text(doc) for doc in documents]
-
 #  Generate Embeddings using Sentence-Transformer
 model = SentenceTransformer('all-MiniLM-L6-v2')  
 embeddings = model.encode(documents)
