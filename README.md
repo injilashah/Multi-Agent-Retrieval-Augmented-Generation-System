@@ -6,7 +6,7 @@ The System is designed to query and retrieve relevant information from a documen
 
 # System Flow showing interaction between multiple agents.
 
-<img src="Flow.png" alt="FLOW" style="width: 1000px; height: 450px; border-radius: 50%;">
+<img src="Flow.png" alt="FLOW" style="width: 800px; height: 450px; border-radius: 50%;">
 
 
 
